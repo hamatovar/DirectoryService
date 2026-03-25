@@ -1,8 +1,34 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectoryService.Domain", "src\DirectoryService.Domain\DirectoryService.Domain.csproj", "{67638C90-E3B7-4676-84E6-28EA690F4CCF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1E10D8FF-ECCC-483A-8E90-76A15F7AFDAA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{08885B2D-8EF4-466A-B2C3-29292678DA55}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectoryService.Presentation", "src\DirectoryService.Presentation\DirectoryService.Presentation.csproj", "{7BBE12DF-A05B-470A-9022-BAF115C29FCD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67638C90-E3B7-4676-84E6-28EA690F4CCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67638C90-E3B7-4676-84E6-28EA690F4CCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67638C90-E3B7-4676-84E6-28EA690F4CCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67638C90-E3B7-4676-84E6-28EA690F4CCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BBE12DF-A05B-470A-9022-BAF115C29FCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BBE12DF-A05B-470A-9022-BAF115C29FCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BBE12DF-A05B-470A-9022-BAF115C29FCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BBE12DF-A05B-470A-9022-BAF115C29FCD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{67638C90-E3B7-4676-84E6-28EA690F4CCF} = {1E10D8FF-ECCC-483A-8E90-76A15F7AFDAA}
+		{7BBE12DF-A05B-470A-9022-BAF115C29FCD} = {1E10D8FF-ECCC-483A-8E90-76A15F7AFDAA}
 	EndGlobalSection
 EndGlobal
