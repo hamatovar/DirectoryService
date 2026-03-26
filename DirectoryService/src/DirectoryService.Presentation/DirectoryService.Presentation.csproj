@@ -9,6 +9,14 @@
 
     <ItemGroup>
         <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.9"/>
+        <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="10.1.6" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\DirectoryService.Application\DirectoryService.Application.csproj" />
+      <ProjectReference Include="..\DirectoryService.Contracts\DirectoryService.Contracts.csproj" />
+      <ProjectReference Include="..\DirectoryService.Domain\DirectoryService.Domain.csproj" />
+      <ProjectReference Include="..\DirectoryService.Infrastructure\DirectoryService.Infrastructure.csproj" />
     </ItemGroup>
 
 </Project>
